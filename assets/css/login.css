@@ -18,12 +18,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.title-box {
+.loginAndRegBox .title-box {
   height: 60px;
   background: url('/assets/images/login_title.png') no-repeat center;
 }
 
-.reg-box {
+.loginAndRegBox .reg-box {
   display: none;
 }
 
@@ -44,12 +44,12 @@ body {
   position: relative;
 }
 
-.layui-icon {
+.layui-form-item i {
   position: absolute;
   left: 10px;
   top: 10px;
 }
 
-.layui-input {
-  padding-left: 32px;
+.layui-form-item input {
+  padding-left: 30px;
 }
